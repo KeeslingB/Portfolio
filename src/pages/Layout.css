@@ -1,8 +1,10 @@
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 .navbar :any-link {
   text-decoration: none;
-  justify-content: space-around;
 }
+
+/* will be returning after adding more to rest of app. */

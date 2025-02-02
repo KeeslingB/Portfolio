@@ -5,20 +5,11 @@ function Layout() {
     <>
       <nav className="navbar">
         <h2 className="logo">Brendan Keesling</h2>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about-me">About Me</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-        </ul>
+        <Link to="/">Home</Link>
+        <Link to="/about-me">About Me</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/resume">Resume</Link>
       </nav>
       <Outlet />
     </>
